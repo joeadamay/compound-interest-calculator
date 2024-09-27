@@ -28,6 +28,7 @@ if __name__ == "__main__":
 
     # Adjust inputs
     payments = -payments
+    rate *= 100.0 # Change to percent
     n = int(n)
 
     balance = principle * (1.0 + rate) ** n + \
